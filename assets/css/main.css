@@ -65,7 +65,7 @@ img.pull-left { margin-right: 10px; }
 	.sidebar h1, .sidebar .h1, .sidebar h2, .sidebar .h2, .sidebar h3, .sidebar .h3 { margin-top:20px; } 
 
 /* Footer */
-.footer1 { background: #3498db; padding: 60px 0 0 0; font-size: 12px; color: #fff; }
+.footer1 { background: #3498db; padding: 60px 0 35px 0; font-size: 12px; color: #fff; }
 	.footer1 a { color: rgba(44, 62, 80,1.0); }
 		.footer1 a:hover {color: #fff; }
 	.footer1 .widget { margin-bottom:5px; }		
@@ -119,4 +119,8 @@ img.img-circle.team-img {
 .callToAction {	
 	background-color: #3498db;
 	color: white;
+}
+
+.container-fluid {
+	max-width: 100%;
 }
