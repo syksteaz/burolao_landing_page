@@ -7,25 +7,19 @@
 	<meta charset="utf-8">
 	<meta name="viewport"    content="width=device-width, initial-scale=1.0">
 	
-	<title>Burolao - Louez un bureau chez un particulier</title>
-	<meta name="description" content="Louer un espace de coworking chez un particulier sans vous ruiner">
+	<title>Burolao - Bureaux et espaces de coworking chez des particuliers</title>
+	<meta name="description" content="Les freelances et les startups peuvent enfin louer un bureau sans se ruiner.">
 	<meta name="author"      content="">
 	
 <!-- Favicons
 ==============================================================-->
 	<link rel="shortcut icon" href="assets/images/favicon_burolao.png">
 
-
 <!-- Bootstrap
 ===============================================================-->
 	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
 	<link rel="stylesheet" href="assets/css/font-awesome.min.css">
 	<link rel="stylesheet" href="assets/css/bootstrap-theme.css" media="screen" >
-
-<!--Slider
-===============================================================
-Ici pas utile d'utiliser de slider (sorte de Caroussel)-->
-
 
 <!-- Stylesheet
 ==============================================================-->
@@ -38,6 +32,7 @@ Ici pas utile d'utiliser de slider (sorte de Caroussel)-->
 	<script src="assets/js/respond.min.js"></script>
 	<![endif]-->
 </head>
+
 <body class="home">
 	<!-- Navigation
 ==============================================================-->
@@ -55,14 +50,14 @@ Ici pas utile d'utiliser de slider (sorte de Caroussel)-->
 						</button>
 						<a class="navbar-brand" href="index.html">BUROLAO</a>
 					</div>
-
 		<!-- Collect the nav links, forms, and other content for toggling -->			
 					<div class="navbar-collapse collapse">
 						<ul class="nav navbar-nav pull-right">
-				            <li><a href="#head" class="page-scroll">Accueil</a></li>
-				            <li><a href="#tf-about" class="page-scroll">Services</a></li>
-				            <li><a href="#tf-team" class="page-scroll">Equipe</a></li>
-				            <li><a href="#tf-services" class="page-scroll">Suivez-nous</a></li>
+				            <li><a href="index.html#head" class="page-scroll">Accueil</a></li>
+				            <li><a href="index.html#tf-about" class="page-scroll">Services</a></li>
+				            <li><a href="index.html#tf-team" class="page-scroll">Equipe</a></li>
+				            <li><a href="index.html#tf-services" class="page-scroll">Suivez-nous</a></li>
+				            <li><a href="contact.html" class="page-scroll">Contact</a></li>		
 		<!-- 					<li><a class="btn" href="signin.html">PARTICULIER</a></li>
 							<li><a class="btn" href="signin.html">COWORKER</a></li> -->
 						</ul>
@@ -74,119 +69,79 @@ Ici pas utile d'utiliser de slider (sorte de Caroussel)-->
 	<!-- /.navbar -->
 
 
-    <!-- About Us Page
+    <!-- Carte Google Maps
     ==========================================-->
-	<!-- Intro -->
 	<div id="tf-about" class="container-fluid">
-				<br> <br>
-				<h2 class="thin top-space text-center">CONTACT</h2>
-					<div class="floater"></div>
-					<Div class="row">
-						<div class="col-sm-5 col-sm-offset-1">
-						<h4 style="line-height: 2em" class="text-muted">
-							<div id="map" style="width: 100%; height: 400px;"></div>
+		<br> <br>
+		<h2 class="thin top-space text-center">CONTACT</h2>
+			<div class="floater"></div>
+			<div class="row">
+				<div class="col-sm-5 col-sm-offset-1">
+				<h4 style="line-height: 2em" class="text-muted">
+					<div id="map" style="width: 100%; height: 400px;"></div>
 
-							<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
+					<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
 
-							<script type="text/javascript">
-							  var myLatlng = new google.maps.LatLng(48.876602,2.370459);
+					<script type="text/javascript">
+					  var myLatlng = new google.maps.LatLng(48.876602,2.370459);
 
-							  var myOptions = {
-							      zoom: 14,
-							      center: myLatlng,
-							      mapTypeId: google.maps.MapTypeId.ROADMAP,
-							      styles: [{"stylers":[{"hue":"#007fff"},{"saturation":89}]},{"featureType":"water","stylers":[{"color":"#ffffff"}]},{"featureType":"administrative.country","elementType":"labels","stylers":[{"visibility":"off"}]}]
-							  };
+					  var myOptions = {
+					      zoom: 14,
+					      center: myLatlng,
+					      mapTypeId: google.maps.MapTypeId.ROADMAP,
+					      styles: [{"stylers":[{"hue":"#007fff"},{"saturation":89}]},{"featureType":"water","stylers":[{"color":"#ffffff"}]},{"featureType":"administrative.country","elementType":"labels","stylers":[{"visibility":"off"}]}]
+					  };
 
-							  var map = new google.maps.Map(document.getElementById('map'), myOptions);
-							  var marker = new google.maps.Marker({
-							      position: myLatlng,
-							      map: map,
-							      title:"You are here!"
-							  });
-							</script>
+					  var map = new google.maps.Map(document.getElementById('map'), myOptions);
+					  var marker = new google.maps.Marker({
+					      position: myLatlng,
+					      map: map,
+					      title:"You are here!"
+					  });
+					</script>
 
-						</h4>
-					    </div>
+				</h4>
+			    </div>
 
-					    <div class="col-sm-5">
-						<h4 style="line-height: 2em" class="text-muted">
-							<i class="fa fa-map-marker"> </i>  62 avenue Claude Vellefaux 75010 Paris <br>
-							<i class="fa fa-phone"></i>  01 71 06 33 38 <br>
-							<i class="fa fa-envelope"></i>  contact@burolao.com
-						</h4>
-					    </div>
-
-					 
-					</Div>
+    <!-- Section Coordonnées
+    ==========================================-->
+			    <div class="col-sm-5">
+				<h4 style="line-height: 2em" class="text-muted">
+					<i class="fa fa-map-marker"> </i>  62 avenue Claude Vellefaux 75010 Paris <br>
+					<i class="fa fa-phone"></i>  01 71 06 33 38 <br>
+					<i class="fa fa-envelope"></i>  <a href="mailto:contact@burolao.com">contact@burolao.com</a>
+				</h4>
+			    </div>
+			</div> <!--fin row-->
 	</div>
-	<!-- /Intro-->
 		
+	<!-- Footer 
+===============================================================-->
 	<footer id="footer" class="top-space">
-
 		<div class="footer1">
 			<div class="container-fluid">
-				<div class="row">
-						<h2 class="widget-title list-inline" style="padding-left: 15px">Suivez nous sur les réseaux sociaux
-								<a href="https://twitter.com/Burolao_app"><i class="fa fa-twitter fa-5"></i></a>
-								<a href="https://www.facebook.com/burolao"><i class="fa fa-facebook fa-5"></i></a>
-						</h2>
-						</div>
+				<div class="row text-center">
+					<h2 class="widget-title">Suivez-nous sur les réseaux sociaux
+						<a href="https://twitter.com/Burolao_app" target="_blank"><i class="fa fa-twitter fa-5"></i></a>
+						<a href="https://www.facebook.com/burolao" target="_blank"><i class="fa fa-facebook fa-5"></i></a>
+					</h2>
 				</div>
-
-<!-- 					<div class="col-md-6 widget">
-						<h3 class="widget-title">Text widget</h3>
-						<div class="widget-body">
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, dolores, quibusdam architecto voluptatem amet fugiat nesciunt placeat provident cumque accusamus itaque voluptate modi quidem dolore optio velit hic iusto vero praesentium repellat commodi ad id expedita cupiditate repellendus possimus unde?</p>
-							<p>Eius consequatur nihil quibusdam! Laborum, rerum, quis, inventore ipsa autem repellat provident assumenda labore soluta minima alias temporibus facere distinctio quas adipisci nam sunt explicabo officia tenetur at ea quos doloribus dolorum voluptate reprehenderit architecto sint libero illo et hic.</p>
-						</div>
-					</div> -->
-
-			</div> <!-- /row of widgets -->
-		</div>
-
-<!-- 		<div class="footer2">
-			<div class="container">
-				<div class="row">
-					
-					<div class="col-md-6 widget">
-						<div class="widget-body">
-							<p class="simplenav">
-								<a href="#">Home</a> | 
-								<a href="about.html">About</a> |
-								<a href="sidebar-right.html">Sidebar</a> |
-								<a href="contact.html">Contact</a> |
-								<b><a href="signup.html">Sign up</a></b>
-							</p>
-						</div>
-					</div>
-
-					<div class="col-md-6 widget">
-						<div class="widget-body">
-							<p class="text-right">
-								Copyright &copy; 2014, Your name. Designed by <a href="http://gettemplate.com/" rel="designer">gettemplate</a> 
-							</p>
-						</div>
-					</div>
-
-				</div> /row of widgets
 			</div>
-		</div> -->
-
+		</div>
 	</footer>	
 		
 
-
-
-
-	<!-- JavaScript libs are placed at the end of the document so the pages load faster -->
+	<!-- JavaScript libs are placed at the end of the document so the pages load faster
+====================================================================-->
+	
+	<!-- scripts divers-->
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 	<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
 	<script src="assets/js/headroom.min.js"></script>
 	<script src="assets/js/jQuery.headroom.min.js"></script>
 	<script src="assets/js/template.js"></script>
 
-	<!-- begin olark code -->
+	<!-- Live Chat Olark - Begin olark code -->
 	<script data-cfasync="false" type='text/javascript'>/*<![CDATA[*/window.olark||(function(c){var f=window,d=document,l=f.location.protocol=="https:"?"https:":"http:",z=c.name,r="load";var nt=function(){
 	f[z]=function(){
 	(a.s=a.s||[]).push(arguments)};var a=f[z]._={
@@ -208,15 +163,15 @@ Ici pas utile d'utiliser de slider (sorte de Caroussel)-->
 	<!-- end olark code -->
 
 	<!-- Google Analytics -->
-			<script>
-		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+		<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-		  ga('create', 'UA-64740547-1', 'auto');
-		  ga('send', 'pageview');
-		</script>
+	  ga('create', 'UA-64740547-1', 'auto');
+	  ga('send', 'pageview');
+	</script>
 
 </body>
 </html>
