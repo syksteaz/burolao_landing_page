@@ -23,7 +23,7 @@
 
 .navbar-inverse .navbar-nav > .active > a { background:none; color:white; }
 
-.navbar-inverse .navbar-brand { font-family: "Open sans", helvetica, arial; font-size: 32px; color:#2c3e50; padding:0 0 0 15px; margin:8px 0 0 0; }
+.navbar-inverse .navbar-brand { font-family: "Open Sans", arial; font-size: 32px; color:#2c3e50; padding:0 0 0 15px; margin:8px 0 0 0; }
 	.navbar-inverse .navbar-brand img { margin-top:-8px;}
 
 .navbar-nav .dropdown-menu {
@@ -86,11 +86,11 @@
 /*******************************/
 /*           Jumbotron         */
 /*******************************/
-.jumbotron { color: inherit; background-color: #F7F5F4; padding-top:30px; padding-bottom:30px; margin-bottom:0; }
+.jumbotron { color: inherit; background-color: #ecf0f1; padding-top:30px; padding-bottom:30px; margin-bottom:0; }
 .container .jumbotron { -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; padding-left:40px; padding-right:40px; }
 	.jumbotron p { font-size:inherit; }
 	.jumbotron h2, .jumbotron h3, .jumbotron h4, 
-	.jumbotron h5, .jumbotron h6 { line-height: 1.3em; }
+	.jumbotron h5, .jumbotron h6 { line-height: 1.6em; }
 
 
 /*******************************/

@@ -1,6 +1,6 @@
 /*#EDAE49*/
 /* Header */
-#head { background:#181015 url( ../images/startupstock3.png) no-repeat; background-size: cover; min-height:520px; text-align: center; padding-top:180px; color:white; font-family:"Open sans", Helvetica, Arial; font-weight:300; }
+#head { background:#181015 url( ../images/Bureau_a_plusieurs.png) no-repeat; background-size: cover; min-height:520px; text-align: center; padding-top:180px; color:white; font-family:"Open sans", Helvetica, Arial; font-weight:300; }
 #head.secondary { height:100px; min-height: 100px; padding-top:0px; }
 	#head .lead { font-family:"Open sans", Helvetica, Arial; font-size:44px; margin-bottom:60px; color:white; line-height:1.15em; text-shadow: 2px 2px #2c3e50;} 
 	#head .tagline { color:rgba(255,255,255,0.75); margin-bottom:25px; }
