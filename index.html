@@ -102,28 +102,60 @@
 				<h1 class="lead">Louez un bureau chez un particulier</h1>
 				<h2>Trouvez un espace de travail abordable | Rencontrez d'autres freelances</h2>
 				
-				<div class="col-xs-12 col-sm-4 col-sm-offset-4">
-					<button type="button" class="btn btn-lg callToAction" data-toggle="modal" data-target="#emailForm">
-					  Rejoindre Burolao
+				<div class="col-xs-12 col-sm-3 col-sm-offset-3">
+					<button type="button" class="btn btn-lg callToAction" data-toggle="modal" data-target="#emailFormParticulier">
+					  PARTICULIER <br> Louer son appartement	
 					</button>
+				</div>
 
-					<!-- Modal -->
-					<div class="modal fade" id="emailForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+				<div class="col-xs-12 col-sm-3">
+					<button type="button" class="btn btn-lg callToAction" data-toggle="modal" data-target="#emailFormFreelance">
+					  FREELANCE / STARTUPS <br> Trouver un bureau
+					</button>
+				</div>
+
+					<!-- Modal pour PARTICULIER-->
+					<div class="modal fade" id="emailFormParticulier" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
 					  	<div class="modal-dialog" role="document">
 						    <div class="modal-content">
 						      	<div class="modal-header">
 						        	<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>				        
-						        	<h4 class="modal-title" id="myModalLabel">Coworkez différemment</h4>
+						        	<h4 class="modal-title" id="myModalLabel">Complétez vos revenus</h4>
 						      	</div>
 
 						      	<div class="modal-body text-center">
-						      		<p>Nous travaillons dur pour finir les développements et vous offrir la meilleur des expériences..<br><br>Inscrivez vous à la newsletter pour rester informé !
-						      		</p>
 
-									<!-- Begin MailChimp Signup Form -->
-									<link href="//cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
+								<div id="wufoo-m843a0c0addkem" class="mc_embed_signup">
+									Fill out my <a href="https://edouardwinia.wufoo.com/forms/m843a0c0addkem">online form</a>.
+								</div>
+								<div id="wuf-adv" style="font-family:inherit;font-size: small;color:#a7a7a7;text-align:center;display:block;">The easy to use <a href="http://www.wufoo.com/form-builder/">Wufoo form builder</a> helps you make forms easy, fast, and fun.</div>
+								<script type="text/javascript">var m843a0c0addkem;(function(d, t) {
+									var s = d.createElement(t), options = {
+									'userName':'edouardwinia',
+									'formHash':'m843a0c0addkem',
+									'autoResize':true,
+									'height':'380',
+									'async':true,
+									'host':'wufoo.com',
+									'header':'show',
+									'ssl':true};
+									s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'www.wufoo.com/scripts/embed/form.js';
+									s.onload = s.onreadystatechange = function() {
+									var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
+									try { m843a0c0addkem = new WufooForm();m843a0c0addkem.initialize(options);m843a0c0addkem.display(); } catch (e) {}};
+									var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
+									})(document, 'script');
+								</script>
+
+
+<!-- 						      		<p>Nous travaillons dur pour finir les développements et vous offrir la meilleur des expériences..<br><br>Inscrivez vous à la newsletter pour rester informé !
+						      		</p> -->
+
+									<!-- Begin MailChimp Signup Form
+									====================================================================-->
+<!-- 									<link href="//cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
 									<style type="text/css">
-										#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
+										#mc_embed_signup{background:#fff; clear:left; font:14px "Open Sans",sans-serif; }
 										/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
 										   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
 									</style>
@@ -132,24 +164,99 @@
 									    <div id="mc_embed_signup_scroll" class="text-center">
 										
 										<input type="email" value="" name="EMAIL" class="email form-control text-center" id="mce-EMAIL" placeholder="nom@email.com" required>
-									    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-									    <div style="position: absolute; left: -5000px;"><input type="text" name="b_474c9a33f78858ffeba80e59e_c3419510be" tabindex="-1" value="">
+									    <! real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+						<!-- 			    <div style="position: absolute; left: -5000px;"><input type="text" name="b_474c9a33f78858ffeba80e59e_c3419510be" tabindex="-1" value="">
 									    </div>
 									    <br>
 									    <input type="submit" value="Je m'inscris" name="subscribe" id="mc-embedded-subscribe" class="button btn btn-lg callToAction">
 									    </div>
 									</form>
-									</div>
+									</div> --> -->
 									<!--End mc_embed_signup-->
 						    	</div>				    	
 					  		</div>
 						</div>
 					</div>
-                <p>Appelez-nous gratuitement	
+
+
+
+
+					<!-- Modal pour FREELANCES / STARTUP-->
+					<div class="modal fade" id="emailFormFreelance" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+					  	<div class="modal-dialog" role="document">
+						    <div class="modal-content">
+						      	<div class="modal-header">
+						        	<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>				        
+						        	<h4 class="modal-title" id="myModalLabel">Louez un bureau sans vous ruiner</h4>
+						      	</div>
+
+						      	<div class="modal-body text-center">
+
+								<div id="wufoo-qh7lrwa01q29jd">
+								Fill out my <a href="https://edouardwinia.wufoo.com/forms/qh7lrwa01q29jd">online form</a>.
+								</div>
+								<div id="wuf-adv" style="font-family:inherit;font-size: small;color:#a7a7a7;text-align:center;display:block;">Use <a href="http://www.wufoo.com/gallery/templates/">Wufoo templates</a> to make your own HTML forms.
+								</div>
+								<script type="text/javascript">var qh7lrwa01q29jd;(function(d, t) {
+									var s = d.createElement(t), options = {
+									'userName':'edouardwinia',
+									'formHash':'qh7lrwa01q29jd',
+									'autoResize':true,
+									'height':'580',
+									'async':true,
+									'host':'wufoo.com',
+									'header':'show',
+									'ssl':true};
+									s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'www.wufoo.com/scripts/embed/form.js';
+									s.onload = s.onreadystatechange = function() {
+									var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
+									try { qh7lrwa01q29jd = new WufooForm();qh7lrwa01q29jd.initialize(options);qh7lrwa01q29jd.display(); } catch (e) {}};
+									var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
+									})(document, 'script');
+								</script>
+
+
+
+<!-- 						      		<p>Nous travaillons dur pour finir les développements et vous offrir la meilleur des expériences..<br><br>Inscrivez vous à la newsletter pour rester informé !
+						      		</p> -->
+
+									<!-- Begin MailChimp Signup Form
+									====================================================================-->
+<!-- 									<link href="//cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
+									<style type="text/css">
+										#mc_embed_signup{background:#fff; clear:left; font:14px "Open Sans",sans-serif; }
+										/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+										   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+									</style>
+									<div id="mc_embed_signup">
+									<form class = "form-group" action="//burolao.us11.list-manage.com/subscribe/post?u=474c9a33f78858ffeba80e59e&amp;id=c3419510be" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+									    <div id="mc_embed_signup_scroll" class="text-center">
+										
+										<input type="email" value="" name="EMAIL" class="email form-control text-center" id="mce-EMAIL" placeholder="nom@email.com" required>
+									    <! real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+						<!-- 			    <div style="position: absolute; left: -5000px;"><input type="text" name="b_474c9a33f78858ffeba80e59e_c3419510be" tabindex="-1" value="">
+									    </div>
+									    <br>
+									    <input type="submit" value="Je m'inscris" name="subscribe" id="mc-embedded-subscribe" class="button btn btn-lg callToAction">
+									    </div>
+									</form>
+									</div> --> -->
+									<!--End mc_embed_signup-->
+						    	</div>				    	
+					  		</div>
+						</div>
+					</div>
+
+
+
+			<div class="row">		
+				<div class="col-xs-12">
+                <br> <br> <p> Appelez-nous gratuitement	
                 </p>	
                 <h2>01 71 06 33 38
                 </h2>		
                 <a href="#tf-about" class="fa fa-angle-down page-scroll"></a>
+            	</div>
             </div>
 <!-- 				<p>
 					<a class="btn btn-default btn-lg" role="button">MORE INFO</a> 
@@ -182,6 +289,48 @@
 	<div class="jumbotron top-space">
 		<div class="container-fluid text-center" id="tfconcept">
 			<h2 class="thin top-space text-center">COMMENT CA MARCHE ?</h2>
+			<div class="row">
+				<div class="col-xs-12 col-sm-4 highlight">
+					<div class="h-caption"><h2><i class="fa fa-cogs fa-5"></i>Coworker centric</h2></div>
+					<div class="h-body text-center">
+						<h4>	Rejoignez une communauté de freelances uniques <br>
+								Travaillez auprès d'autres freelances <br>
+								Développez vos compétences
+						</h4>
+					</div>
+				</div>
+
+				<div class="col-md-4 col-sm-6 highlight">
+					<div class="h-caption"><h2><i class="fa fa-flash fa-5"></i>Pratique</h2></div>
+					<div class="h-body text-center">
+						<h4>	Trouvez un bureau où vous le voulez dans Paris <br>
+								Ne dépensez plus des 1000 et des 100<br>
+								Pas d'engagement de durée </h4>
+					</div>
+				</div>
+
+				<div class="col-md-4 col-sm-6 highlight">
+					<div class="h-caption"><h2><i class="fa fa-heart fa-5"></i>Simplicité</h2></div>
+					<div class="h-body text-center">
+						<h4>	Complétez votre profil <br>
+								Rejoignez d'autres freelances <br>
+								Commencez à louer votre bureau !</h4>
+					</div>
+				</div>
+			</div> <!-- /row  -->
+            <a style="color:grey;" href="#tf-team" class="fa fa-angle-down page-scroll"></a>
+		</div>
+	</div>
+
+
+
+
+
+    <!-- Section "Nos valeurs" - jumbotron
+    ===========================================================-->
+	<div class="jumbotron top-space">
+		<div class="container-fluid text-center" id="tfconcept">
+			<h2 class="thin top-space text-center">NOS VALEURS</h2>
 			<div class="row">
 				<div class="col-xs-12 col-sm-4 highlight">
 					<div class="h-caption"><h2><i class="fa fa-cogs fa-5"></i>Coworker centric</h2></div>
