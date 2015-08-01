@@ -1,6 +1,6 @@
 /*#EDAE49*/
 /* Header */
-#head { background:#181015 url( ../images/Bureau_a_plusieurs.png) no-repeat; background-size: cover; min-height:520px; text-align: center; padding-top:180px; color:white; font-family:"Open sans", Helvetica, Arial; font-weight:300; }
+#head { background:#181015 url( ../images/Bureau_a_plusieurs.png) no-repeat; background-size: cover; min-height:520px; text-align: center; padding-top:180px; color:white; font-family:"Open sans", Helvetica, Arial; font-weight:300;}
 #head.secondary { height:100px; min-height: 100px; padding-top:0px; }
 	#head .lead { font-family:"Open sans", Helvetica, Arial; font-size:44px; margin-bottom:60px; color:white; line-height:1.15em; text-shadow: 2px 2px #2c3e50;} 
 	#head .tagline { color:rgba(255,255,255,0.75); margin-bottom:25px; }
@@ -98,6 +98,10 @@ img.img-circle.team-img {
 	height: 20px;
 }
 
+.floater2{
+	height : 50px;
+}
+
 .modal-content{	
 	color : rgb(44, 62, 80);
 }
@@ -115,6 +119,14 @@ img.img-circle.team-img {
 	padding-bottom:10px;
 }
 
-#tfconcept h4{
-	line-height: 1.8em;
+
+#tf-coworker h4.h-body {
+	line-height: 1.5em;
+}
+
+#tfconcept h4, 
+#tf-team h4,
+#tf-logistique h4, 
+#tf-confiance h4 {
+	line-height: 1.5em;
 }
