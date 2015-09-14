@@ -2,14 +2,14 @@
 /* Header */
 #head { background:#181015 url( ../images/Bureau_a_plusieurs.png) no-repeat; background-size: cover; min-height:520px; text-align: center; padding-top:180px; color:white; font-family:"Open sans", Helvetica, Arial; font-weight:300;}
 #head.secondary { height:100px; min-height: 100px; padding-top:0px; }
-	#head .lead { font-family:"Open sans", Helvetica, Arial; font-size:44px; margin-bottom:60px; color:white; line-height:1.15em; text-shadow: 2px 2px #2c3e50;} 
+	#head .lead { font-family:"Open sans", Helvetica, Arial; font-size:44px; margin-bottom:60px; color:white; line-height:1.15em; text-shadow: 2px 2px #2c3e50;}
 	#head .tagline { color:rgba(255,255,255,0.75); margin-bottom:25px; }
-		#head .tagline a { color:#fff; } 
+		#head .tagline a { color:#fff; }
 	#head .btn { margin-bottom:10px;}
 	#head .btn-default { text-shadow: none; background:transparent; color:rgba(255,255,255,.5); -webkit-box-shadow:inset 0px 0px 0px 3px rgba(255,255,255,.5); -moz-box-shadow:inset 0px 0px 0px 3px rgba(255,255,255,.5); box-shadow:inset 0px 0px 0px 3px rgba(255,255,255,.5); background: transparent; }
 		#head .btn-default:hover,
 		#head .btn-default:focus { color:rgba(255,255,255,.8); -webkit-box-shadow:inset 0px 0px 0px 3px rgba(255,255,255,.8); -moz-box-shadow:inset 0px 0px 0px 3px rgba(255,255,255,.8); box-shadow:inset 0px 0px 0px 3px rgba(255,255,255,.8); background: transparent; }
-		#head .btn-default:active, 
+		#head .btn-default:active,
 		#head .btn-default.active { color:#fff; -webkit-box-shadow:inset 0px 0px 0px 3px #fff; -moz-box-shadow:inset 0px 0px 0px 3px #fff; box-shadow:inset 0px 0px 0px 3px #fff; background: transparent; }
 		#head p {font-size: 16px;	}
 		#head h2{margin-top: 10px; margin-bottom: 60px;}
@@ -20,14 +20,10 @@
 }
 
 
-/* Autohide navbar */
-.slideUp { top:-100px; }
-.headroom { -webkit-transition: all 0.4s ease-out; -moz-transition: all 0.4s ease-out; -o-transition: all 0.4s ease-out; transition: all 0.4s ease-out; }
-
 
 /* Highlights (in jumbotron in most cases) */
 .highlight { margin-top:40px; }
-	.h-caption { text-align: center; } 
+	.h-caption { text-align: center; }
 	.h-caption i { display:block; font-size: 54px; color:rgb(44, 62, 80); margin-bottom:36px; }
 	.h-caption h4 { color:rgb(44, 62, 80); font-size: 16px; font-weight: bold; margin-bottom:20px; }
 	.h-body { }
@@ -35,7 +31,7 @@
 
 /* Typography */
 h1, h2, h3, h4, h5, h6 { font-family:"Open sans", Helvetica, Arial; }
-h1, .h1, h2, .h2, h3, .h3 { margin-top:30px; } 
+h1, .h1, h2, .h2, h3, .h3 { margin-top:30px; }
 blockquote { font-style: italic; font-family: Georgia; color:#999; margin:30px 0 30px; }
 label { color: #777; }
 .thin { font-weight:300; }
@@ -62,13 +58,13 @@ img.pull-left { margin-right: 10px; }
 /* Sidebars */
 .sidebar { padding-top:36px; padding-bottom:30px; }
 	.sidebar .widget { margin-bottom:20px; }
-	.sidebar h1, .sidebar .h1, .sidebar h2, .sidebar .h2, .sidebar h3, .sidebar .h3 { margin-top:20px; } 
+	.sidebar h1, .sidebar .h1, .sidebar h2, .sidebar .h2, .sidebar h3, .sidebar .h3 { margin-top:20px; }
 
 /* Footer */
 .footer1 { background: #3498db; padding: 30px 0 35px 0; font-size: 12px; color: #fff; }
 	.footer1 a { color: rgba(44, 62, 80,1.0); }
 		.footer1 a:hover {color: #fff; }
-	
+
 
 
 a.fa.fa-angle-down {
@@ -84,7 +80,7 @@ a.fa.fa-angle-down {
 a.fa.fa-angle-down:hover{
 	background: #3498db;
 	color: #fff;
-	border: 2px solid #3498db;	
+	border: 2px solid #3498db;
 }
 
 img.img-circle.team-img {
@@ -94,7 +90,7 @@ img.img-circle.team-img {
 	transition: all 0.5s;
 }
 
-.floater{	
+.floater{
 	height: 20px;
 }
 
@@ -102,11 +98,11 @@ img.img-circle.team-img {
 	height : 50px;
 }
 
-.modal-content{	
+.modal-content{
 	color : rgb(44, 62, 80);
 }
 
-.callToAction {	
+.callToAction {
 	background-color: #3498db;
 	color: white;
 }
@@ -124,9 +120,24 @@ img.img-circle.team-img {
 	line-height: 1.5em;
 }
 
-#tfconcept h4, 
+#tfconcept h4,
 #tf-team h4,
-#tf-logistique h4, 
+#tf-logistique h4,
 #tf-confiance h4 {
 	line-height: 1.5em;
 }
+
+.banner-button {
+  margin-top: 10px;
+}
+
+.navbar {
+  background-color: #2980b9;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: white;
+}
+
+
+/*-collapse.navbar-nav li a*/

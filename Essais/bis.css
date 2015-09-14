@@ -1,0 +1,34 @@
+body {
+  background: linear-gradient(to bottom, #2c3e50, #2e8ece);
+}
+
+.principale {
+  padding-top: 4em;
+  color: white;
+  height: 650px;
+}
+
+.principale h1, h2 {
+  font-family: "Open Sans";
+  font-weight: 800;
+}
+
+.principale h2 {
+  font-family: "Open Sans";
+  font-weight: 400;
+}
+
+.navbar {
+  padding-top: 12px;
+  background: #2c3e50;
+  color: white;
+}
+
+.rounded {
+  border-radius: 50%;
+  height: 15%;
+}
+
+.picture {
+  padding-top: 50px;
+}
