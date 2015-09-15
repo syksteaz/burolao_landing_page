@@ -1,8 +1,9 @@
+
 /*#EDAE49*/
 /* Header */
-#head { background:#181015 url( ../images/Bureau_a_plusieurs.png) no-repeat; background-size: cover; min-height:520px; text-align: center; padding-top:180px; color:white; font-family:"Open sans", Helvetica, Arial; font-weight:300;}
+#head { background:#181015 url( ../images/Salon-principal.jpg) no-repeat; background-size: cover; min-height:520px; text-align: center; padding-top:180px; color:white; font-family:"Open sans", Helvetica, Arial; font-weight:300;}
 #head.secondary { height:100px; min-height: 100px; padding-top:0px; }
-	#head .lead { font-family:"Open sans", Helvetica, Arial; font-size:44px; margin-bottom:60px; color:white; line-height:1.15em; text-shadow: 2px 2px #2c3e50;}
+	#head .lead { font-family:"Open sans", Helvetica, Arial; font-size:44px; margin-bottom:60px; color: #7f8c8d; line-height:1.15em; text-shadow: 1px 1px #bdc3c7; font-weight: 400 }
 	#head .tagline { color:rgba(255,255,255,0.75); margin-bottom:25px; }
 		#head .tagline a { color:#fff; }
 	#head .btn { margin-bottom:10px;}
@@ -16,7 +17,9 @@
 
 @media (max-width: 767px) {
 	#head { min-height:420px; padding-top:160px; }
-	#head .lead { font-size: 34px; }
+	#head .lead {
+    font-size: 34px;
+    font-weight: 700; }
 }
 
 
@@ -132,12 +135,39 @@ img.img-circle.team-img {
 }
 
 .navbar {
-  background-color: #2980b9;
+  background-color: rgba(41, 128, 185,0.9);
 }
 
 .navbar-inverse .navbar-nav>li>a {
     color: white;
 }
 
+.opaque {
+  background-color: rgba(0,0,0,0.2);
+  height: 40em;
+  width: 85%;
+  margin: auto;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.white-card {
+  background-color: rgba(241, 196, 15,0.3);
+  border-radius: 10px;
+  padding: 20px;
+  text-align: justify;
+  font-weight: 300;
+  line-height: 2em;
+}
+
+.white-card h4{
+  font-weight: 300;
+  line-height: 1.5em;
+}
 
 /*-collapse.navbar-nav li a*/
+
+.btn-primary {
+  background-color: rgba(241, 196, 15,1.0);
+  border: none;
+}

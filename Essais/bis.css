@@ -1,5 +1,5 @@
 body {
-  background: linear-gradient(to bottom, #2c3e50, #2e8ece);
+  background: -webkit-linear-gradient(90deg, #2c3e50 10%, #3498db 90%);
 }
 
 .principale {
@@ -31,4 +31,57 @@ body {
 
 .picture {
   padding-top: 50px;
+  margin: auto;
+  max-width: 80%;
+
+}
+
+.floater{
+  height: 20px;
+}
+
+.white-card {
+  background-color: #ecf0f1;
+  border-radius: 4px;
+  padding: 20px;
+  text-align: justify;
+  font-weight: 300;
+  line-height: 2em;
+}
+
+.white-card h2{
+  font-weight: 300;
+  line-height: 1.5em;
+  text-align: center;
+}
+
+.white-card h4{
+  font-weight: 300;
+  line-height: 1.3em;
+}
+
+
+.bloc {
+  margin: 8em auto;
+}
+
+.btn {
+  font-size: 1.5em;
+}
+
+
+a.fa.fa-angle-down {
+  padding: 10px 15px;
+  color: #fff;
+  border: 2px solid #b4b4b4;
+  border-radius: 50%;
+  font-size: 24px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  transition: all 0.5s;
+}
+a.fa.fa-angle-down:hover{
+  background: #3498db;
+  color: #fff;
+  border: 2px solid #3498db;
 }
